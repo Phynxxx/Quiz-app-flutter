@@ -102,7 +102,10 @@ class _QuizScreenState extends State<QuizScreen>
     _autoHintTimer = Timer(
       const Duration(seconds: AppConstants.hintAutoRevealSeconds),
       () {
-        if (!mounted || selectedAnswerIndex != null || isQuestionLocked || showHint) {
+        if (!mounted ||
+            selectedAnswerIndex != null ||
+            isQuestionLocked ||
+            showHint) {
           return;
         }
 
