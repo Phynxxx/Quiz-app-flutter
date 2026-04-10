@@ -110,7 +110,7 @@ class _MyAppState extends State<MyApp> {
       theme: AppThemeData.darkTheme(),
       debugShowCheckedModeBanner: false,
       home: isLoading
-          ? Scaffold(
+          ? const Scaffold(
               backgroundColor: AppColors.backgroundColor,
               body: Center(
                 child: CircularProgressIndicator(
