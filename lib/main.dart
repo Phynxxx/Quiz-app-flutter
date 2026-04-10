@@ -1,102 +1,141 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/quiz.dart';
-import 'package:flutter_application_1/result.dart';
+import 'package:flutter_application_1/core/theme/app_theme.dart';
+import 'package:flutter_application_1/core/constants/app_constants.dart';
+import 'package:flutter_application_1/data/question_repository.dart';
+import 'package:flutter_application_1/models/question.dart';
+import 'package:flutter_application_1/screens/splash_screen.dart';
+import 'package:flutter_application_1/screens/quiz_screen.dart';
+import 'package:flutter_application_1/screens/result_screen.dart';
 
-void main() {
-  runApp(MyApp());
+void main() async {
+  // Initialize questions from JSON before running app
+  WidgetsFlutterBinding.ensureInitialized();
+  final repository = QuestionRepository();
+  await repository.initialize();
+
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return _MyAppState();
-  }
+  State<StatefulWidget> createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
-  static const questions = [
-    {
-      'questionText': 'What is the capital of France?',
-      'answers': [
-        {'text': 'Paris', 'score': 10},
-        {'text': 'London', 'score': 0},
-        {'text': 'Berlin', 'score': 0},
-        {'text': 'Madrid', 'score': 0},
-      ]
-    },
-    {
-      'questionText': 'Which planet is known as the Red Planet?',
-      'answers': [
-        {'text': 'Mars', 'score': 10},
-        {'text': 'Venus', 'score': 0},
-        {'text': 'Jupiter', 'score': 0},
-        {'text': 'Mercury', 'score': 0},
-      ]
-    },
-    {
-      'questionText': 'What is the largest ocean on Earth?',
-      'answers': [
-        {'text': 'Pacific Ocean', 'score': 10},
-        {'text': 'Atlantic Ocean', 'score': 0},
-        {'text': 'Indian Ocean', 'score': 0},
-        {'text': 'Arctic Ocean', 'score': 0},
-      ]
-    },
-    {
-      'questionText': 'Who wrote "Romeo and Juliet"?',
-      'answers': [
-        {'text': 'William Shakespeare', 'score': 10},
-        {'text': 'Charles Dickens', 'score': 0},
-        {'text': 'Mark Twain', 'score': 0},
-        {'text': 'Jane Austen', 'score': 0},
-      ]
-    },
-    {
-      'questionText': 'Which language is used to build Flutter apps?',
-      'answers': [
-        {'text': 'Dart', 'score': 10},
-        {'text': 'Python', 'score': 0},
-        {'text': 'Java', 'score': 0},
-        {'text': 'Swift', 'score': 0},
-      ]
-    },
-  ];
-  var questionIndex = 0;
-  var _totalScore = 0;
+  List<Question> currentQuizQuestions = [];
+  int questionIndex = 0;
+  int totalScore = 0;
+  int hintsUsed = 0;
+  bool showSplash = true;
+  bool isLoading = true;
 
-  void _resetQuiz() {
+  @override
+  void initState() {
+    super.initState();
+    _initializeQuiz();
+  }
+
+  void _initializeQuiz() async {
+    try {
+      final repository = QuestionRepository();
+
+      // Get 10 random questions for this quiz session
+      currentQuizQuestions = repository.getRandomizedQuestions(
+        AppConstants.questionsPerQuiz,
+      );
+
+      // Print statistics
+      print('📊 Question Bank Stats:');
+      final stats = repository.getStatistics();
+      print('Total Questions: ${stats['total_questions']}');
+      print('Categories: ${stats['categories']}');
+
+      setState(() {
+        isLoading = false;
+      });
+    } catch (e) {
+      print('❌ Error initializing quiz: $e');
+      setState(() {
+        currentQuizQuestions = [];
+        isLoading = false;
+      });
+    }
+  }
+
+  void _onSplashComplete() {
     setState(() {
-      questionIndex = 0;
-      _totalScore = 0;
+      showSplash = false;
     });
   }
 
-  void _answerQuestion(int score) {
-    questionIndex += 1;
-    _totalScore += score;
-    setState(() {});
-    if (questionIndex < questions.length) {
-      print("Answer Chosen!");
+  void _resetQuiz() {
+    // Get new randomized questions for next session
+    final repository = QuestionRepository();
+    currentQuizQuestions = repository.getRandomizedQuestions(
+      AppConstants.questionsPerQuiz,
+    );
+
+    setState(() {
+      questionIndex = 0;
+      totalScore = 0;
+      hintsUsed = 0;
+    });
+  }
+
+  bool _useHint() {
+    if (hintsUsed >= AppConstants.totalHintsPerQuiz) {
+      return false;
     }
+
+    setState(() {
+      hintsUsed += 1;
+    });
+
+    return true;
+  }
+
+  void _answerQuestion(int score) {
+    totalScore += score;
+    setState(() {
+      questionIndex += 1;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
-      appBar: AppBar(
-        title: const Text('My First App'),
-        backgroundColor: const Color(0xFF2196F3),
-        shadowColor: const Color(0xFF0000FF),
-      ),
-      body: questionIndex < questions.length
-          ? Quiz(
-              questions: questions,
-              answerQuestion: _answerQuestion,
-              questionIndex: questionIndex,
+      title: 'QuizMaster Pro',
+      theme: AppThemeData.darkTheme(),
+      debugShowCheckedModeBanner: false,
+      home: isLoading
+          ? Scaffold(
+              backgroundColor: AppColors.backgroundColor,
+              body: Center(
+                child: CircularProgressIndicator(
+                  color: AppColors.primaryColor,
+                ),
+              ),
             )
-          : Result(_totalScore, _resetQuiz),
-    ));
+          : showSplash
+              ? SplashScreen(onComplete: _onSplashComplete)
+              : Scaffold(
+                  body: questionIndex < currentQuizQuestions.length
+                      ? QuizScreen(
+                          questions: currentQuizQuestions,
+                          answerQuestion: _answerQuestion,
+                          questionIndex: questionIndex,
+                          hintsUsed: hintsUsed,
+                          maxHints: AppConstants.totalHintsPerQuiz,
+                          onUseHint: _useHint,
+                        )
+                      : ResultScreen(
+                          totalScore: totalScore,
+                          maxScore: AppConstants.maxScorePossible,
+                          resetQuiz: _resetQuiz,
+                        ),
+                ),
+    );
   }
 }

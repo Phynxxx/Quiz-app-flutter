@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "questionText": "What is the capital of France?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Paris", "score": 10},
+      {"text": "London", "score": 0},
+      {"text": "Berlin", "score": 0},
+      {"text": "Madrid", "score": 0}
+    ]
+  },
+  {
+    "id": 2,
+    "questionText": "Which planet is known as the Red Planet?",
+    "category": "Science",
+    "answers": [
+      {"text": "Mars", "score": 10},
+      {"text": "Venus", "score": 0},
+      {"text": "Jupiter", "score": 0},
+      {"text": "Mercury", "score": 0}
+    ]
+  },
+  {
+    "id": 3,
+    "questionText": "What is the largest ocean on Earth?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Pacific Ocean", "score": 10},
+      {"text": "Atlantic Ocean", "score": 0},
+      {"text": "Indian Ocean", "score": 0},
+      {"text": "Arctic Ocean", "score": 0}
+    ]
+  },
+  {
+    "id": 4,
+    "questionText": "Who wrote 'Romeo and Juliet'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "William Shakespeare", "score": 10},
+      {"text": "Charles Dickens", "score": 0},
+      {"text": "Mark Twain", "score": 0},
+      {"text": "Jane Austen", "score": 0}
+    ]
+  },
+  {
+    "id": 5,
+    "questionText": "Which language is used to build Flutter apps?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Dart", "score": 10},
+      {"text": "Python", "score": 0},
+      {"text": "Java", "score": 0},
+      {"text": "Swift", "score": 0}
+    ]
+  },
+  {
+    "id": 6,
+    "questionText": "What is the smallest country in the world?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Vatican City", "score": 10},
+      {"text": "Monaco", "score": 0},
+      {"text": "Liechtenstein", "score": 0},
+      {"text": "San Marino", "score": 0}
+    ]
+  },
+  {
+    "id": 7,
+    "questionText": "In what year did the Titanic sink?",
+    "category": "History",
+    "answers": [
+      {"text": "1912", "score": 10},
+      {"text": "1905", "score": 0},
+      {"text": "1920", "score": 0},
+      {"text": "1898", "score": 0}
+    ]
+  },
+  {
+    "id": 8,
+    "questionText": "What is the chemical symbol for gold?",
+    "category": "Science",
+    "answers": [
+      {"text": "Au", "score": 10},
+      {"text": "Ag", "score": 0},
+      {"text": "Go", "score": 0},
+      {"text": "Gd", "score": 0}
+    ]
+  },
+  {
+    "id": 9,
+    "questionText": "Who painted the Mona Lisa?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Leonardo da Vinci", "score": 10},
+      {"text": "Michelangelo", "score": 0},
+      {"text": "Raphael", "score": 0},
+      {"text": "Donatello", "score": 0}
+    ]
+  },
+  {
+    "id": 10,
+    "questionText": "What does HTML stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "HyperText Markup Language", "score": 10},
+      {"text": "High Tech Modern Language", "score": 0},
+      {"text": "Home Tool Markup Language", "score": 0},
+      {"text": "Hypertext Machine Learning", "score": 0}
+    ]
+  },
+  {
+    "id": 11,
+    "questionText": "Which mountain is the tallest in the world?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Mount Everest", "score": 10},
+      {"text": "K2", "score": 0},
+      {"text": "Kangchenjunga", "score": 0},
+      {"text": "Lhotse", "score": 0}
+    ]
+  },
+  {
+    "id": 12,
+    "questionText": "What is the capital of Japan?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Tokyo", "score": 10},
+      {"text": "Osaka", "score": 0},
+      {"text": "Kyoto", "score": 0},
+      {"text": "Nagano", "score": 0}
+    ]
+  },
+  {
+    "id": 13,
+    "questionText": "How many continents are there?",
+    "category": "Geography",
+    "answers": [
+      {"text": "7", "score": 10},
+      {"text": "5", "score": 0},
+      {"text": "6", "score": 0},
+      {"text": "8", "score": 0}
+    ]
+  },
+  {
+    "id": 14,
+    "questionText": "What is the largest desert in the world?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Antarctic Desert", "score": 10},
+      {"text": "Sahara Desert", "score": 0},
+      {"text": "Arabian Desert", "score": 0},
+      {"text": "Gobi Desert", "score": 0}
+    ]
+  },
+  {
+    "id": 15,
+    "questionText": "Which river is the longest in the world?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Nile River", "score": 10},
+      {"text": "Amazon River", "score": 0},
+      {"text": "Yangtze River", "score": 0},
+      {"text": "Mississippi River", "score": 0}
+    ]
+  },
+  {
+    "id": 16,
+    "questionText": "What year did Christopher Columbus discover America?",
+    "category": "History",
+    "answers": [
+      {"text": "1492", "score": 10},
+      {"text": "1485", "score": 0},
+      {"text": "1500", "score": 0},
+      {"text": "1505", "score": 0}
+    ]
+  },
+  {
+    "id": 17,
+    "questionText": "Who was the first President of the United States?",
+    "category": "History",
+    "answers": [
+      {"text": "George Washington", "score": 10},
+      {"text": "Thomas Jefferson", "score": 0},
+      {"text": "John Adams", "score": 0},
+      {"text": "Benjamin Franklin", "score": 0}
+    ]
+  },
+  {
+    "id": 18,
+    "questionText": "In which year did World War II end?",
+    "category": "History",
+    "answers": [
+      {"text": "1945", "score": 10},
+      {"text": "1942", "score": 0},
+      {"text": "1940", "score": 0},
+      {"text": "1948", "score": 0}
+    ]
+  },
+  {
+    "id": 19,
+    "questionText": "Who authored 'Pride and Prejudice'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Jane Austen", "score": 10},
+      {"text": "Charlotte Brontë", "score": 0},
+      {"text": "Emily Dickinson", "score": 0},
+      {"text": "Mary Shelley", "score": 0}
+    ]
+  },
+  {
+    "id": 20,
+    "questionText": "What is the largest mammal in the world?",
+    "category": "Science",
+    "answers": [
+      {"text": "Blue Whale", "score": 10},
+      {"text": "African Elephant", "score": 0},
+      {"text": "Giraffe", "score": 0},
+      {"text": "Rhino", "score": 0}
+    ]
+  },
+  {
+    "id": 21,
+    "questionText": "What is the capital of Germany?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Berlin", "score": 10},
+      {"text": "Munich", "score": 0},
+      {"text": "Hamburg", "score": 0},
+      {"text": "Frankfurt", "score": 0}
+    ]
+  },
+  {
+    "id": 22,
+    "questionText": "Who wrote 'Great Expectations'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Charles Dickens", "score": 10},
+      {"text": "William Thackeray", "score": 0},
+      {"text": "Anthony Trollope", "score": 0},
+      {"text": "George Eliot", "score": 0}
+    ]
+  },
+  {
+    "id": 23,
+    "questionText": "What is the atomic number of Hydrogen?",
+    "category": "Science",
+    "answers": [
+      {"text": "1", "score": 10},
+      {"text": "2", "score": 0},
+      {"text": "3", "score": 0},
+      {"text": "4", "score": 0}
+    ]
+  },
+  {
+    "id": 24,
+    "questionText": "Who invented the telephone?",
+    "category": "History",
+    "answers": [
+      {"text": "Alexander Graham Bell", "score": 10},
+      {"text": "Thomas Edison", "score": 0},
+      {"text": "Nikola Tesla", "score": 0},
+      {"text": "George Marconi", "score": 0}
+    ]
+  },
+  {
+    "id": 25,
+    "questionText": "What is the capital of Spain?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Madrid", "score": 10},
+      {"text": "Barcelona", "score": 0},
+      {"text": "Seville", "score": 0},
+      {"text": "Valencia", "score": 0}
+    ]
+  },
+  {
+    "id": 26,
+    "questionText": "How many bones are in the human body?",
+    "category": "Science",
+    "answers": [
+      {"text": "206", "score": 10},
+      {"text": "256", "score": 0},
+      {"text": "186", "score": 0},
+      {"text": "216", "score": 0}
+    ]
+  },
+  {
+    "id": 27,
+    "questionText": "What does CSS stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Cascading Style Sheets", "score": 10},
+      {"text": "Creative Scripting System", "score": 0},
+      {"text": "Computer System Software", "score": 0},
+      {"text": "Cascading Syntax Standard", "score": 0}
+    ]
+  },
+  {
+    "id": 28,
+    "questionText": "In what year did the Berlin Wall fall?",
+    "category": "History",
+    "answers": [
+      {"text": "1989", "score": 10},
+      {"text": "1987", "score": 0},
+      {"text": "1991", "score": 0},
+      {"text": "1985", "score": 0}
+    ]
+  },
+  {
+    "id": 29,
+    "questionText": "Who wrote 'To Kill a Mockingbird'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Harper Lee", "score": 10},
+      {"text": "Truman Capote", "score": 0},
+      {"text": "Carson McCullers", "score": 0},
+      {"text": "Flannery O'Connor", "score": 0}
+    ]
+  },
+  {
+    "id": 30,
+    "questionText": "What is the capital of Italy?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Rome", "score": 10},
+      {"text": "Milan", "score": 0},
+      {"text": "Venice", "score": 0},
+      {"text": "Florence", "score": 0}
+    ]
+  },
+  {
+    "id": 31,
+    "questionText": "Which gas do plants absorb from the atmosphere?",
+    "category": "Science",
+    "answers": [
+      {"text": "Carbon Dioxide", "score": 10},
+      {"text": "Oxygen", "score": 0},
+      {"text": "Nitrogen", "score": 0},
+      {"text": "Helium", "score": 0}
+    ]
+  },
+  {
+    "id": 32,
+    "questionText": "What is Java?",
+    "category": "Technology",
+    "answers": [
+      {"text": "A programming language", "score": 10},
+      {"text": "An island", "score": 0},
+      {"text": "A coffee brand", "score": 0},
+      {"text": "All of the above", "score": 0}
+    ]
+  },
+  {
+    "id": 33,
+    "questionText": "Who painted 'Starry Night'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Vincent van Gogh", "score": 10},
+      {"text": "Pablo Picasso", "score": 0},
+      {"text": "Claude Monet", "score": 0},
+      {"text": "Salvador Dalí", "score": 0}
+    ]
+  },
+  {
+    "id": 34,
+    "questionText": "What is the capital of Australia?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Canberra", "score": 10},
+      {"text": "Sydney", "score": 0},
+      {"text": "Melbourne", "score": 0},
+      {"text": "Brisbane", "score": 0}
+    ]
+  },
+  {
+    "id": 35,
+    "questionText": "In which country is the Great Wall located?",
+    "category": "Geography",
+    "answers": [
+      {"text": "China", "score": 10},
+      {"text": "Japan", "score": 0},
+      {"text": "India", "score": 0},
+      {"text": "Russia", "score": 0}
+    ]
+  },
+  {
+    "id": 36,
+    "questionText": "Who was the first man to walk on the moon?",
+    "category": "History",
+    "answers": [
+      {"text": "Neil Armstrong", "score": 10},
+      {"text": "Buzz Aldrin", "score": 0},
+      {"text": "John Glenn", "score": 0},
+      {"text": "Alan Shepard", "score": 0}
+    ]
+  },
+  {
+    "id": 37,
+    "questionText": "What is the capital of Canada?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Ottawa", "score": 10},
+      {"text": "Toronto", "score": 0},
+      {"text": "Vancouver", "score": 0},
+      {"text": "Montreal", "score": 0}
+    ]
+  },
+  {
+    "id": 38,
+    "questionText": "Who authored '1984'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "George Orwell", "score": 10},
+      {"text": "Aldous Huxley", "score": 0},
+      {"text": "Ray Bradbury", "score": 0},
+      {"text": "Philip K. Dick", "score": 0}
+    ]
+  },
+  {
+    "id": 39,
+    "questionText": "What does AI stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Artificial Intelligence", "score": 10},
+      {"text": "Automated Instructions", "score": 0},
+      {"text": "Advanced Interface", "score": 0},
+      {"text": "Application Integration", "score": 0}
+    ]
+  },
+  {
+    "id": 40,
+    "questionText": "How many strings does a standard violin have?",
+    "category": "Literature",
+    "answers": [
+      {"text": "4", "score": 10},
+      {"text": "5", "score": 0},
+      {"text": "6", "score": 0},
+      {"text": "3", "score": 0}
+    ]
+  },
+  {
+    "id": 41,
+    "questionText": "What is the capital of Brazil?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Brasília", "score": 10},
+      {"text": "Rio de Janeiro", "score": 0},
+      {"text": "São Paulo", "score": 0},
+      {"text": "Salvador", "score": 0}
+    ]
+  },
+  {
+    "id": 42,
+    "questionText": "What is the speed of light?",
+    "category": "Science",
+    "answers": [
+      {"text": "299,792,458 m/s", "score": 10},
+      {"text": "200,000,000 m/s", "score": 0},
+      {"text": "300,000,000 m/s", "score": 0},
+      {"text": "250,000,000 m/s", "score": 0}
+    ]
+  },
+  {
+    "id": 43,
+    "questionText": "Who invented the lightbulb?",
+    "category": "History",
+    "answers": [
+      {"text": "Thomas Edison", "score": 10},
+      {"text": "Alexander Graham Bell", "score": 0},
+      {"text": "Nikola Tesla", "score": 0},
+      {"text": "George Westinghouse", "score": 0}
+    ]
+  },
+  {
+    "id": 44,
+    "questionText": "What is the capital of Russia?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Moscow", "score": 10},
+      {"text": "St. Petersburg", "score": 0},
+      {"text": "Novosibirsk", "score": 0},
+      {"text": "Sochi", "score": 0}
+    ]
+  },
+  {
+    "id": 45,
+    "questionText": "Who wrote 'The Great Gatsby'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "F. Scott Fitzgerald", "score": 10},
+      {"text": "Ernest Hemingway", "score": 0},
+      {"text": "Sinclair Lewis", "score": 0},
+      {"text": "John Dos Passos", "score": 0}
+    ]
+  },
+  {
+    "id": 46,
+    "questionText": "What is Python used for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Web development and data science", "score": 10},
+      {"text": "Only web development", "score": 0},
+      {"text": "Only mobile apps", "score": 0},
+      {"text": "Only game development", "score": 0}
+    ]
+  },
+  {
+    "id": 47,
+    "questionText": "What is the capital of Mexico?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Mexico City", "score": 10},
+      {"text": "Guadalajara", "score": 0},
+      {"text": "Monterrey", "score": 0},
+      {"text": "Cancún", "score": 0}
+    ]
+  },
+  {
+    "id": 48,
+    "questionText": "Which planet has the most moons?",
+    "category": "Science",
+    "answers": [
+      {"text": "Jupiter", "score": 10},
+      {"text": "Saturn", "score": 0},
+      {"text": "Uranus", "score": 0},
+      {"text": "Neptune", "score": 0}
+    ]
+  },
+  {
+    "id": 49,
+    "questionText": "Who founded Microsoft?",
+    "category": "History",
+    "answers": [
+      {"text": "Bill Gates and Paul Allen", "score": 10},
+      {"text": "Steve Jobs", "score": 0},
+      {"text": "Mark Zuckerberg", "score": 0},
+      {"text": "Larry Page", "score": 0}
+    ]
+  },
+  {
+    "id": 50,
+    "questionText": "What is the capital of India?",
+    "category": "Geography",
+    "answers": [
+      {"text": "New Delhi", "score": 10},
+      {"text": "Mumbai", "score": 0},
+      {"text": "Bangalore", "score": 0},
+      {"text": "Kolkata", "score": 0}
+    ]
+  },
+  {
+    "id": 51,
+    "questionText": "Who won the Nobel Prize in Physics in 1921?",
+    "category": "History",
+    "answers": [
+      {"text": "Albert Einstein", "score": 10},
+      {"text": "Max Planck", "score": 0},
+      {"text": "Niels Bohr", "score": 0},
+      {"text": "Werner Heisenberg", "score": 0}
+    ]
+  },
+  {
+    "id": 52,
+    "questionText": "What is the chemical formula for water?",
+    "category": "Science",
+    "answers": [
+      {"text": "H2O", "score": 10},
+      {"text": "O2H", "score": 0},
+      {"text": "H2O2", "score": 0},
+      {"text": "HO", "score": 0}
+    ]
+  },
+  {
+    "id": 53,
+    "questionText": "Who authored 'Jane Eyre'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Charlotte Brontë", "score": 10},
+      {"text": "Emily Brontë", "score": 0},
+      {"text": "Anne Brontë", "score": 0},
+      {"text": "Jane Austen", "score": 0}
+    ]
+  },
+  {
+    "id": 54,
+    "questionText": "What does JSON stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "JavaScript Object Notation", "score": 10},
+      {"text": "Java System Object Network", "score": 0},
+      {"text": "JavaScript Oriented Notation", "score": 0},
+      {"text": "Java Standard Object Naming", "score": 0}
+    ]
+  },
+  {
+    "id": 55,
+    "questionText": "What is the capital of South Africa?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Pretoria (executive capital)", "score": 10},
+      {"text": "Cape Town", "score": 0},
+      {"text": "Johannesburg", "score": 0},
+      {"text": "Durban", "score": 0}
+    ]
+  },
+  {
+    "id": 56,
+    "questionText": "How many sides does a hexagon have?",
+    "category": "Science",
+    "answers": [
+      {"text": "6", "score": 10},
+      {"text": "5", "score": 0},
+      {"text": "7", "score": 0},
+      {"text": "8", "score": 0}
+    ]
+  },
+  {
+    "id": 57,
+    "questionText": "Who painted the Sistine Chapel ceiling?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Michelangelo", "score": 10},
+      {"text": "Leonardo da Vinci", "score": 0},
+      {"text": "Raphael", "score": 0},
+      {"text": "Botticelli", "score": 0}
+    ]
+  },
+  {
+    "id": 58,
+    "questionText": "In what year was the Internet invented?",
+    "category": "Technology",
+    "answers": [
+      {"text": "1969", "score": 10},
+      {"text": "1975", "score": 0},
+      {"text": "1985", "score": 0},
+      {"text": "1995", "score": 0}
+    ]
+  },
+  {
+    "id": 59,
+    "questionText": "What is the capital of Greece?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Athens", "score": 10},
+      {"text": "Thessaloniki", "score": 0},
+      {"text": "Patras", "score": 0},
+      {"text": "Larissa", "score": 0}
+    ]
+  },
+  {
+    "id": 60,
+    "questionText": "Who discovered penicillin?",
+    "category": "History",
+    "answers": [
+      {"text": "Alexander Fleming", "score": 10},
+      {"text": "Louis Pasteur", "score": 0},
+      {"text": "Jonas Salk", "score": 0},
+      {"text": "Edward Jenner", "score": 0}
+    ]
+  },
+  {
+    "id": 61,
+    "questionText": "What is the largest country in the world?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Russia", "score": 10},
+      {"text": "Canada", "score": 0},
+      {"text": "China", "score": 0},
+      {"text": "United States", "score": 0}
+    ]
+  },
+  {
+    "id": 62,
+    "questionText": "How many atoms are in a water molecule?",
+    "category": "Science",
+    "answers": [
+      {"text": "3", "score": 10},
+      {"text": "2", "score": 0},
+      {"text": "4", "score": 0},
+      {"text": "5", "score": 0}
+    ]
+  },
+  {
+    "id": 63,
+    "questionText": "Who wrote 'Wuthering Heights'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Emily Brontë", "score": 10},
+      {"text": "Charlotte Brontë", "score": 0},
+      {"text": "Anne Brontë", "score": 0},
+      {"text": "George Eliot", "score": 0}
+    ]
+  },
+  {
+    "id": 64,
+    "questionText": "What does HTTP stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "HyperText Transfer Protocol", "score": 10},
+      {"text": "High-Tech Transfer Protocol", "score": 0},
+      {"text": "Home Text Transfer Protocol", "score": 0},
+      {"text": "Hypertext Transmission Protocol", "score": 0}
+    ]
+  },
+  {
+    "id": 65,
+    "questionText": "What is the capital of Egypt?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Cairo", "score": 10},
+      {"text": "Alexandria", "score": 0},
+      {"text": "Giza", "score": 0},
+      {"text": "Aswan", "score": 0}
+    ]
+  },
+  {
+    "id": 66,
+    "questionText": "What is the most abundant gas in Earth's atmosphere?",
+    "category": "Science",
+    "answers": [
+      {"text": "Nitrogen", "score": 10},
+      {"text": "Oxygen", "score": 0},
+      {"text": "Argon", "score": 0},
+      {"text": "Carbon Dioxide", "score": 0}
+    ]
+  },
+  {
+    "id": 67,
+    "questionText": "Who founded Apple?",
+    "category": "History",
+    "answers": [
+      {"text": "Steve Jobs and Steve Wozniak", "score": 10},
+      {"text": "Bill Gates", "score": 0},
+      {"text": "Mark Zuckerberg", "score": 0},
+      {"text": "Elon Musk", "score": 0}
+    ]
+  },
+  {
+    "id": 68,
+    "questionText": "What is the capital of Thailand?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Bangkok", "score": 10},
+      {"text": "Phuket", "score": 0},
+      {"text": "Chiang Mai", "score": 0},
+      {"text": "Pattaya", "score": 0}
+    ]
+  },
+  {
+    "id": 69,
+    "questionText": "Who wrote 'The Odyssey'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Homer", "score": 10},
+      {"text": "Virgil", "score": 0},
+      {"text": "Ovid", "score": 0},
+      {"text": "Sophocles", "score": 0}
+    ]
+  },
+  {
+    "id": 70,
+    "questionText": "What does IDE stand for in programming?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Integrated Development Environment", "score": 10},
+      {"text": "Internet Development Engine", "score": 0},
+      {"text": "Intelligent Design Element", "score": 0},
+      {"text": "Internal Data Exchange", "score": 0}
+    ]
+  },
+  {
+    "id": 71,
+    "questionText": "What is the capital of South Korea?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Seoul", "score": 10},
+      {"text": "Busan", "score": 0},
+      {"text": "Daegu", "score": 0},
+      {"text": "Incheon", "score": 0}
+    ]
+  },
+  {
+    "id": 72,
+    "questionText": "What is the freezing point of water in Celsius?",
+    "category": "Science",
+    "answers": [
+      {"text": "0°C", "score": 10},
+      {"text": "-1°C", "score": 0},
+      {"text": "1°C", "score": 0},
+      {"text": "32°C", "score": 0}
+    ]
+  },
+  {
+    "id": 73,
+    "questionText": "Who was the first Queen of England?",
+    "category": "History",
+    "answers": [
+      {"text": "Mary I", "score": 10},
+      {"text": "Elizabeth I", "score": 0},
+      {"text": "Victoria", "score": 0},
+      {"text": "Anne", "score": 0}
+    ]
+  },
+  {
+    "id": 74,
+    "questionText": "What is the capital of Turkey?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Ankara", "score": 10},
+      {"text": "Istanbul", "score": 0},
+      {"text": "Izmir", "score": 0},
+      {"text": "Trabzon", "score": 0}
+    ]
+  },
+  {
+    "id": 75,
+    "questionText": "Who authored 'Frankenstein'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Mary Shelley", "score": 10},
+      {"text": "Bram Stoker", "score": 0},
+      {"text": "Robert Louis Stevenson", "score": 0},
+      {"text": "Edgar Allan Poe", "score": 0}
+    ]
+  },
+  {
+    "id": 76,
+    "questionText": "What does GPU stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Graphics Processing Unit", "score": 10},
+      {"text": "General Purpose Unit", "score": 0},
+      {"text": "Global Processing Unit", "score": 0},
+      {"text": "Graphical Programming Utility", "score": 0}
+    ]
+  },
+  {
+    "id": 77,
+    "questionText": "What is the capital of Sweden?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Stockholm", "score": 10},
+      {"text": "Gothenburg", "score": 0},
+      {"text": "Malmö", "score": 0},
+      {"text": "Uppsala", "score": 0}
+    ]
+  },
+  {
+    "id": 78,
+    "questionText": "How many bones does a newborn baby have?",
+    "category": "Science",
+    "answers": [
+      {"text": "About 270", "score": 10},
+      {"text": "About 200", "score": 0},
+      {"text": "About 300", "score": 0},
+      {"text": "About 250", "score": 0}
+    ]
+  },
+  {
+    "id": 79,
+    "questionText": "Who was Julius Caesar?",
+    "category": "History",
+    "answers": [
+      {"text": "A Roman military general and politician", "score": 10},
+      {"text": "An Egyptian pharaoh", "score": 0},
+      {"text": "A Greek philosopher", "score": 0},
+      {"text": "A Germanic warrior", "score": 0}
+    ]
+  },
+  {
+    "id": 80,
+    "questionText": "What is the capital of Norway?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Oslo", "score": 10},
+      {"text": "Bergen", "score": 0},
+      {"text": "Trondheim", "score": 0},
+      {"text": "Stavanger", "score": 0}
+    ]
+  },
+  {
+    "id": 81,
+    "questionText": "Who wrote 'Moby Dick'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Herman Melville", "score": 10},
+      {"text": "Mark Twain", "score": 0},
+      {"text": "Nathaniel Hawthorne", "score": 0},
+      {"text": "Edgar Allan Poe", "score": 0}
+    ]
+  },
+  {
+    "id": 82,
+    "questionText": "What does CPU stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Central Processing Unit", "score": 10},
+      {"text": "Computer Personal Unit", "score": 0},
+      {"text": "Central Program Utility", "score": 0},
+      {"text": "Computer Processing Union", "score": 0}
+    ]
+  },
+  {
+    "id": 83,
+    "questionText": "What is the capital of Denmark?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Copenhagen", "score": 10},
+      {"text": "Aarhus", "score": 0},
+      {"text": "Odense", "score": 0},
+      {"text": "Aalborg", "score": 0}
+    ]
+  },
+  {
+    "id": 84,
+    "questionText": "What is the boiling point of water in Celsius?",
+    "category": "Science",
+    "answers": [
+      {"text": "100°C", "score": 10},
+      {"text": "99°C", "score": 0},
+      {"text": "101°C", "score": 0},
+      {"text": "212°C", "score": 0}
+    ]
+  },
+  {
+    "id": 85,
+    "questionText": "Who invented the airplane?",
+    "category": "History",
+    "answers": [
+      {"text": "Wright Brothers", "score": 10},
+      {"text": "Leonardo da Vinci", "score": 0},
+      {"text": "Otto Lilienthal", "score": 0},
+      {"text": "George Cayley", "score": 0}
+    ]
+  },
+  {
+    "id": 86,
+    "questionText": "What is the capital of Poland?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Warsaw", "score": 10},
+      {"text": "Krakow", "score": 0},
+      {"text": "Gdańsk", "score": 0},
+      {"text": "Wrocław", "score": 0}
+    ]
+  },
+  {
+    "id": 87,
+    "questionText": "Who authored 'The Catcher in the Rye'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "J.D. Salinger", "score": 10},
+      {"text": "Jack Kerouac", "score": 0},
+      {"text": "William S. Burroughs", "score": 0},
+      {"text": "Allen Ginsberg", "score": 0}
+    ]
+  },
+  {
+    "id": 88,
+    "questionText": "What does SQL stand for?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Structured Query Language", "score": 10},
+      {"text": "System Query Language", "score": 0},
+      {"text": "Standard Quantitative Language", "score": 0},
+      {"text": "Special Query Library", "score": 0}
+    ]
+  },
+  {
+    "id": 89,
+    "questionText": "What is the capital of Indonesia?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Jakarta", "score": 10},
+      {"text": "Surabaya", "score": 0},
+      {"text": "Bandung", "score": 0},
+      {"text": "Medan", "score": 0}
+    ]
+  },
+  {
+    "id": 90,
+    "questionText": "What is the most common blood type?",
+    "category": "Science",
+    "answers": [
+      {"text": "O positive", "score": 10},
+      {"text": "A positive", "score": 0},
+      {"text": "B positive", "score": 0},
+      {"text": "AB positive", "score": 0}
+    ]
+  },
+  {
+    "id": 91,
+    "questionText": "Who was Napoleon Bonaparte?",
+    "category": "History",
+    "answers": [
+      {"text": "A French military leader who became Emperor", "score": 10},
+      {"text": "An Italian general", "score": 0},
+      {"text": "A Russian general", "score": 0},
+      {"text": "A Spanish king", "score": 0}
+    ]
+  },
+  {
+    "id": 92,
+    "questionText": "What is the capital of Vietnam?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Hanoi", "score": 10},
+      {"text": "Ho Chi Minh City", "score": 0},
+      {"text": "Da Nang", "score": 0},
+      {"text": "Haiphong", "score": 0}
+    ]
+  },
+  {
+    "id": 93,
+    "questionText": "Who wrote 'Pride and Prejudice'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "Jane Austen", "score": 10},
+      {"text": "Charlotte Brontë", "score": 0},
+      {"text": "Emily Dickinson", "score": 0},
+      {"text": "Mary Shelley", "score": 0}
+    ]
+  },
+  {
+    "id": 94,
+    "questionText": "What does REST stand for in API design?",
+    "category": "Technology",
+    "answers": [
+      {"text": "Representational State Transfer", "score": 10},
+      {"text": "Remote Execution Service Technology", "score": 0},
+      {"text": "Resource Exchange Standard Transfer", "score": 0},
+      {"text": "Request Engine Service Tool", "score": 0}
+    ]
+  },
+  {
+    "id": 95,
+    "questionText": "What is the capital of Philippines?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Manila", "score": 10},
+      {"text": "Cebu", "score": 0},
+      {"text": "Davao", "score": 0},
+      {"text": "Quezon City", "score": 0}
+    ]
+  },
+  {
+    "id": 96,
+    "questionText": "How many chambers does a heart have?",
+    "category": "Science",
+    "answers": [
+      {"text": "4", "score": 10},
+      {"text": "3", "score": 0},
+      {"text": "5", "score": 0},
+      {"text": "2", "score": 0}
+    ]
+  },
+  {
+    "id": 97,
+    "questionText": "In what year did the Renaissance begin?",
+    "category": "History",
+    "answers": [
+      {"text": "14th century", "score": 10},
+      {"text": "13th century", "score": 0},
+      {"text": "15th century", "score": 0},
+      {"text": "12th century", "score": 0}
+    ]
+  },
+  {
+    "id": 98,
+    "questionText": "What is the capital of Pakistan?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Islamabad", "score": 10},
+      {"text": "Karachi", "score": 0},
+      {"text": "Lahore", "score": 0},
+      {"text": "Rawalpindi", "score": 0}
+    ]
+  },
+  {
+    "id": 99,
+    "questionText": "Who wrote 'Ulysses'?",
+    "category": "Literature",
+    "answers": [
+      {"text": "James Joyce", "score": 10},
+      {"text": "Virginia Woolf", "score": 0},
+      {"text": "T.S. Eliot", "score": 0},
+      {"text": "Ezra Pound", "score": 0}
+    ]
+  },
+  {
+    "id": 100,
+    "questionText": "What is the world's smallest state by area?",
+    "category": "Geography",
+    "answers": [
+      {"text": "Vatican City", "score": 10},
+      {"text": "Monaco", "score": 0},
+      {"text": "Liechtenstein", "score": 0},
+      {"text": "San Marino", "score": 0}
+    ]
+  }
+]
